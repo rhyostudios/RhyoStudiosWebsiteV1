@@ -8,6 +8,12 @@
     z-index: 1;
     transition: 500ms ease-in-out;
     transition-delay: 600ms;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.loading-message{
+    transition: 200ms ease-in-out;
 }
 
 #loading-r{
