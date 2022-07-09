@@ -1,0 +1,77 @@
+.home-div-a{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.home-div-a-background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/assets/studiob.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-div-a-1 , .home-div-a-2 , .home-div-a-3 {
+    display: flex;
+    align-items: baseline;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.home-div-a-1{
+    font-weight: 300;
+}
+.home-div-a-11{
+    margin-right: 12px;
+}
+.home-div-a-12{
+    text-decoration-line: underline;
+}
+
+.home-div-a-2 {
+    font-weight: 300;
+}
+
+.home-div-a-21 {
+    margin-right: 12px;
+}
+
+.home-div-a-22{
+    font-weight: 700;
+}
+
+.home-div-a-3 {
+    font-weight: 300;
+}
+
+.home-div-a-31 {
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+.home-div-a-32 {
+
+}
+
+#home-div-a-btn-1 {
+    margin-top: 24px;
+}
+
+@media only screen and (min-width:540px) {
+    .home-div-a{
+        width: 60vw;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 400ms ease-in-out;
+    }
+}

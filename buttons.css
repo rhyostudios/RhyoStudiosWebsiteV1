@@ -1,0 +1,59 @@
+.btn-transparent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    width: 200px;
+    border: 1px solid white;
+    position: relative;
+    transition: 400ms ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-transparent:hover .btn-trnspt-hover-1 {
+    top: 100%;
+}
+.btn-transparent:hover .btn-trnspt-hover-2 {
+    top: 0%;
+}
+
+.btn-transparent:hover .btn-trnspt-left {
+    color: black;
+    position: relative;
+    z-index: 1;
+    transition: 200ms ease-in-out;
+}
+.btn-transparent:hover .btn-trnspt-right svg {
+    stroke: black;
+    position: relative;
+    z-index: 1;
+    transition: 200ms ease-in-out;
+}
+
+.btn-trnspt-left{
+    margin-left: 12px;
+    font-weight: 300;
+    transition: 200ms ease-in-out;
+}
+.btn-trnspt-right{
+    margin-right: 12px;
+    transition: 200ms ease-in-out;
+}
+
+.btn-trnspt-hover-1 , .btn-trnspt-hover-2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    background-color: white;
+}
+
+.btn-trnspt-hover-1{
+    top: -100%;
+    transition: 200ms ease-in-out;
+}
+.btn-trnspt-hover-2{
+    top: -200%;
+    transition: 400ms ease-in-out;
+}
