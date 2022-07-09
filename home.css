@@ -1,7 +1,7 @@
 .home-div-a{
     position: absolute;
-    height: 100vh;
-    width: 100vw;
+    height: calc(100vh - 64px);
+    width: calc(100vw - 64px);
 
     display: flex;
     align-items: flex-start;
