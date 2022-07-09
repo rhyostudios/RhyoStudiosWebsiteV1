@@ -110,3 +110,29 @@
     margin-top: 24px;
     margin-bottom: 36px;
 }
+
+.home-sign-up-cont{
+    height: 120px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.home-sign-up-div{
+    width: 100vw;
+    max-width: 330px;
+    border: 2px solid white;
+}
+
+.home-sign-up-top{
+
+}
+
+.home-sign-up-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.home-sign-up-desc{
+    font-size: 16px;
+    font-weight: 200;
+}

@@ -8,7 +8,7 @@
 }
 
 body{ 
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     overflow-x: hidden;
 }
 
@@ -16,6 +16,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
 }
 
 .navbar-cont{
@@ -27,6 +31,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: 300ms ease-in-out;
+}
+
+.navbar-cont-black{
+    background-color: rgb(15, 15, 15,1);
+    transition: 300ms ease-in-out;
+}
+.navbar-cont-transparent{
+    background-color: rgb(0, 0, 0, 0);
+    transition: 300ms ease-in-out;
 }
 
 .navbar-cont-left{
@@ -132,3 +146,11 @@ body{
 .navbar-menu-social-item{
     margin: 6px;
 }
+
+/* .footer-cont{
+    width: calc(100vw - 64px);
+    height: calc(360px - 72px - 32px);
+    flex-direction: column;
+    margin: 72px 32px 32px;
+    border: 1px solid;
+} */
