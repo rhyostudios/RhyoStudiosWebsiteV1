@@ -57,3 +57,67 @@
     top: -200%;
     transition: 400ms ease-in-out;
 }
+
+.btn-transparent-black{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    width: max-content;
+    padding: 0px 12px 0px 12px;
+    border: 1px solid black;
+    position: relative;
+    transition: 400ms ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-transparent-black-left{
+    color: black;
+    font-weight: 300;
+    transition: 400ms ease-in-out;
+}
+.btn-transparent-black-right{
+    margin-left: 24px;
+    transition: 400ms ease-in-out;
+}
+
+.btn-trnspt-black-hover-1 , .btn-trnspt-black-hover-2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: black;
+}
+
+.btn-trnspt-black-hover-1{
+    left: -100%;
+    transition: 400ms ease-in-out;
+}
+.btn-trnspt-black-hover-2{
+    left: -200%;
+    transition: 400ms ease-in-out;
+}
+
+.btn-transparent-black:hover .btn-trnspt-black-hover-1{
+    left: 100%;
+    transition: 400ms ease-in-out;
+}
+
+.btn-transparent-black:hover .btn-trnspt-black-hover-2{
+    left: 0px;
+    transition: 600ms ease-in-out;
+}
+
+.btn-transparent-black:hover .btn-transparent-black-left {
+    color: white;
+    position: relative;
+    z-index: 1;
+    transition: 400ms ease-in-out;
+}
+.btn-transparent-black:hover .btn-transparent-black-right svg {
+    stroke: white;
+    position: relative;
+    z-index: 1;
+    transition: 600ms ease-in-out;
+}

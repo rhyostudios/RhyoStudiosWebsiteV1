@@ -70,3 +70,43 @@
 @media only screen and (min-width:540px) {
 
 }
+
+
+.home-div-b-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+
+.home-div-b-card{
+    width: 100%;
+    background-color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 24px;
+}
+
+.home-div-b-card-text-a{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    margin-top: 36px;
+    line-height: 12px;
+}
+.home-div-b-card-text-b{
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+.home-div-b-card-text-c{
+    margin-top: 6px;
+    font-weight: 200;
+    font-size: 16px;
+    color: rgb(20, 20, 20);
+}
+.home-div-b-cards-btn{
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
