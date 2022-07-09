@@ -68,10 +68,5 @@
 }
 
 @media only screen and (min-width:540px) {
-    .home-div-a{
-        width: 60vw;
-        left: 50%;
-        transform: translateX(-50%);
-        transition: 400ms ease-in-out;
-    }
+
 }
