@@ -72,6 +72,10 @@
     cursor: pointer;
 }
 
+.btn-transparent-black:hover{
+    transition: 400ms ease-in-out;
+}
+
 .btn-transparent-black-left{
     color: black;
     font-weight: 300;
@@ -88,15 +92,14 @@
     position: absolute;
     top: 0px;
     background-color: black;
+    transition: 400ms ease-in-out;
 }
 
 .btn-trnspt-black-hover-1{
     left: -100%;
-    transition: 400ms ease-in-out;
 }
 .btn-trnspt-black-hover-2{
     left: -200%;
-    transition: 400ms ease-in-out;
 }
 
 .btn-transparent-black:hover .btn-trnspt-black-hover-1{
